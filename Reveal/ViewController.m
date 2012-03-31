@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "RevealViewController.h"
+
 
 @interface ViewController ()
 
@@ -35,4 +37,20 @@
     }
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if ([segue.identifier isEqualToString:@"showRevealVC"]){
+        
+        UIViewController *frontVC = [self.storyboard instantiateViewControllerWithIdentifier:@"FrontVC"];
+        UIViewController *rearVC = [self.storyboard instantiateViewControllerWithIdentifier:@"RearVC"];
+        
+        UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:frontVC];
+        
+        RevealViewController *revealVC = segue.destinationViewController;
+        revealVC.frontViewController = nav;
+        revealVC.rearViewController = rearVC;
+    }
+}
+
+- (IBAction)okPressed:(id)sender {
+}
 @end

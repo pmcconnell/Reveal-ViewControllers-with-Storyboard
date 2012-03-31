@@ -16,6 +16,9 @@
 		13F939041527528200A8009C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F939021527528200A8009C /* MainStoryboard_iPhone.storyboard */; };
 		13F939071527528200A8009C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F939051527528200A8009C /* MainStoryboard_iPad.storyboard */; };
 		13F9390A1527528200A8009C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F939091527528200A8009C /* ViewController.m */; };
+		13F93913152752AB00A8009C /* ZUUIRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F93912152752AB00A8009C /* ZUUIRevealController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		13F9391D1527579500A8009C /* RevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9391C1527579500A8009C /* RevealViewController.m */; };
+		13F9392015275A6300A8009C /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9391F15275A6300A8009C /* FrontViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +26,23 @@
 		13F938F01527528200A8009C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13F938F21527528200A8009C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		13F938F41527528200A8009C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		13F938F81527528200A8009C /* Reveal-Info.plist */ = {isa = PBXFileReference; path = "Reveal-Info.plist"; sourceTree = "<group>"; };
+		13F938F81527528200A8009C /* Reveal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Reveal-Info.plist"; sourceTree = "<group>"; };
 		13F938FA1527528200A8009C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13F938FC1527528200A8009C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		13F938FE1527528200A8009C /* Reveal-Prefix.pch */ = {isa = PBXFileReference; path = "Reveal-Prefix.pch"; sourceTree = "<group>"; };
-		13F938FF1527528200A8009C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		13F938FE1527528200A8009C /* Reveal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reveal-Prefix.pch"; sourceTree = "<group>"; };
+		13F938FF1527528200A8009C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13F939001527528200A8009C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		13F939031527528200A8009C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		13F939061527528200A8009C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		13F939081527528200A8009C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		13F939081527528200A8009C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		13F939091527528200A8009C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13F93910152752AB00A8009C /* ZUUIRevealController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZUUIRevealController-Prefix.pch"; sourceTree = "<group>"; };
+		13F93911152752AB00A8009C /* ZUUIRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZUUIRevealController.h; sourceTree = "<group>"; };
+		13F93912152752AB00A8009C /* ZUUIRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZUUIRevealController.m; sourceTree = "<group>"; };
+		13F9391B1527579500A8009C /* RevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevealViewController.h; sourceTree = "<group>"; };
+		13F9391C1527579500A8009C /* RevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevealViewController.m; sourceTree = "<group>"; };
+		13F9391E15275A6300A8009C /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
+		13F9391F15275A6300A8009C /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				13F938F61527528200A8009C /* Reveal */,
+				13F93915152752C800A8009C /* Interface */,
 				13F938EF1527528200A8009C /* Frameworks */,
 				13F938ED1527528200A8009C /* Products */,
 			);
@@ -79,12 +90,15 @@
 		13F938F61527528200A8009C /* Reveal */ = {
 			isa = PBXGroup;
 			children = (
+				13F93914152752B200A8009C /* ZUUIRevealController */,
 				13F938FF1527528200A8009C /* AppDelegate.h */,
 				13F939001527528200A8009C /* AppDelegate.m */,
-				13F939021527528200A8009C /* MainStoryboard_iPhone.storyboard */,
-				13F939051527528200A8009C /* MainStoryboard_iPad.storyboard */,
 				13F939081527528200A8009C /* ViewController.h */,
 				13F939091527528200A8009C /* ViewController.m */,
+				13F9391E15275A6300A8009C /* FrontViewController.h */,
+				13F9391F15275A6300A8009C /* FrontViewController.m */,
+				13F9391B1527579500A8009C /* RevealViewController.h */,
+				13F9391C1527579500A8009C /* RevealViewController.m */,
 				13F938F71527528200A8009C /* Supporting Files */,
 			);
 			path = Reveal;
@@ -99,6 +113,26 @@
 				13F938FE1527528200A8009C /* Reveal-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13F93914152752B200A8009C /* ZUUIRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				13F93910152752AB00A8009C /* ZUUIRevealController-Prefix.pch */,
+				13F93911152752AB00A8009C /* ZUUIRevealController.h */,
+				13F93912152752AB00A8009C /* ZUUIRevealController.m */,
+			);
+			name = ZUUIRevealController;
+			sourceTree = "<group>";
+		};
+		13F93915152752C800A8009C /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				13F939021527528200A8009C /* MainStoryboard_iPhone.storyboard */,
+				13F939051527528200A8009C /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Interface;
+			path = Reveal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +202,9 @@
 				13F938FD1527528200A8009C /* main.m in Sources */,
 				13F939011527528200A8009C /* AppDelegate.m in Sources */,
 				13F9390A1527528200A8009C /* ViewController.m in Sources */,
+				13F93913152752AB00A8009C /* ZUUIRevealController.m in Sources */,
+				13F9391D1527579500A8009C /* RevealViewController.m in Sources */,
+				13F9392015275A6300A8009C /* FrontViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
