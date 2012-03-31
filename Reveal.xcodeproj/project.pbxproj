@@ -19,6 +19,7 @@
 		13F93913152752AB00A8009C /* ZUUIRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F93912152752AB00A8009C /* ZUUIRevealController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		13F9391D1527579500A8009C /* RevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9391C1527579500A8009C /* RevealViewController.m */; };
 		13F9392015275A6300A8009C /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9391F15275A6300A8009C /* FrontViewController.m */; };
+		13F93922152780A200A8009C /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 13F93921152780A200A8009C /* ReadMe.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		13F9391C1527579500A8009C /* RevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevealViewController.m; sourceTree = "<group>"; };
 		13F9391E15275A6300A8009C /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
 		13F9391F15275A6300A8009C /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
+		13F93921152780A200A8009C /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				13F9391F15275A6300A8009C /* FrontViewController.m */,
 				13F9391B1527579500A8009C /* RevealViewController.h */,
 				13F9391C1527579500A8009C /* RevealViewController.m */,
+				13F93921152780A200A8009C /* ReadMe.txt */,
 				13F938F71527528200A8009C /* Supporting Files */,
 			);
 			path = Reveal;
@@ -189,6 +192,7 @@
 				13F938FB1527528200A8009C /* InfoPlist.strings in Resources */,
 				13F939041527528200A8009C /* MainStoryboard_iPhone.storyboard in Resources */,
 				13F939071527528200A8009C /* MainStoryboard_iPad.storyboard in Resources */,
+				13F93922152780A200A8009C /* ReadMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
